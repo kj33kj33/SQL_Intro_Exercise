@@ -18,9 +18,7 @@ SELECT DISTINCT Price FROM Products;
 -- find all employees whose first name starts with the letter ‘j’
 SELECT * FROM Employees WHERE FirstName LIKE 'j%';
 -- find all Macbooks 
--- Select * From categories;
--- Select * from products where categoryID = 1;
-Select * From products Where Name = 'Macbook';
+SELECT * FROM products Where Name = 'Macbook';
 -- find all products that are on sale
 SELECT * FROM Products WHERE OnSale = 1;
 -- find the average price of all products 
